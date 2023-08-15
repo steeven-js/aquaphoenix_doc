@@ -6,7 +6,7 @@ hero:
   name: Aquaphoenix
   text:  Documentation 
   image:
-    src: /logo-big.png
+    src: ./logo-big.png
     alt: Aquaphoenix logo
   tagline: Comprendre l'interface administrateur
   actions:
