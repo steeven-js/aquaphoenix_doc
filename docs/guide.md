@@ -131,7 +131,7 @@ In other to change the logo title and add an image, copy the markup below and pa
 // config.js
 export default {
   themeConfig: {
-    logo: "/logo.png",
+    logo: "./logo.png",
     siteTitle: "Aquaphoenix",
   },
 };
@@ -312,7 +312,7 @@ const lang = prompt("What is your favorite programming language?");
 
 Of course, images are not left out.
 
-<img src="/logo.png" alt="Aquaphoenix logo">
+<img src="./logo.png" alt="Aquaphoenix logo">
 ```
 
 ### Output
@@ -338,7 +338,7 @@ hero:
   name: Aquaphoenix
   text:  Documentation 
   image:
-    src: /logo-big.png
+    src: ./logo-big.png
     alt: Aquaphoenix logo
   tagline: Comprendre l'interface administrateur
   actions:

@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Aquaphoenix",
   description: "Aquaphoenix Documentation",
   themeConfig: {
-    logo: "/logo.png",
+    logo: './logo.png',
     // https://vitepress.dev/reference/default-theme-config
     // Navbar Link
     nav: [
