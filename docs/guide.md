@@ -114,7 +114,7 @@ To test this config file, you can start by changing the meta title and descripti
 ```js
 // .vitepress/config.js
 export default {
-  title: "Adocs",
+  title: "Aquaphoenix",
   description: "An awesome docs template built by me",
 };
 ```
@@ -131,8 +131,8 @@ In other to change the logo title and add an image, copy the markup below and pa
 // config.js
 export default {
   themeConfig: {
-    logo: "/logo.svg",
-    siteTitle: "Adocs",
+    logo: "/logo.png",
+    siteTitle: "Aquaphoenix",
   },
 };
 ```
@@ -145,7 +145,7 @@ For the image source, you can pass in an image URL or specify the path to a loca
 
 ::: warning
 Note: files in the public directory are served at the root path.
-So instead of `../public/logo.svg`, just use `/logo.svg`.
+So instead of `../public/logo.png`, just use `/logo.png`.
 :::
 
 ## Navbar
@@ -281,7 +281,7 @@ docs/
 ├── .vitepress/
 │   └── config.js
 ├── public/
-│   └── logo.svg
+│   └── logo.png
 ├── about.md
 ├── contact.md
 ├── guide.md
@@ -312,7 +312,7 @@ const lang = prompt("What is your favorite programming language?");
 
 Of course, images are not left out.
 
-<img src="/logo.svg" alt="adocs logo">
+<img src="/logo.png" alt="Aquaphoenix logo">
 ```
 
 ### Output
@@ -335,19 +335,19 @@ First, we'll start with the hero section. Replace the Hello World text in the `i
 layout: home
 
 hero:
-  name: Adocs
-  text: Static docs template built with VitePress.
+  name: Aquaphoenix
+  text:  Documentation 
   image:
-    src: /logo-big.svg
-    alt: Adocs logo
-  tagline: A free to use template for creating docs for your projects
+    src: /logo-big.png
+    alt: Aquaphoenix logo
+  tagline: Comprendre l'interface administrateur
   actions:
     - theme: brand
-      text: Get Started
-      link: /get-started
+      text: Commencer
+      link: /documentation
     - theme: alt
       text: View on GitHub
-      link: https://github.com/evavic44/adocs-template
+      link: https://github.com/steeven-js/aquaphoenix_doc
 ---
 ```
 
@@ -358,11 +358,11 @@ Additionally, you can also add a features section after the hero section. Simply
 ```bash
 # /docs/index.md
 ---
-link: https://github.com/evavic44/adocs-template
+link: https://github.com/steeven-js/aquaphoenix_doc
 
 features:
   - icon: ⚡️
-    title: Adocs, The DX that can't be beat
+    title: Aquaphoenix, The DX that can't be beat
     details: Lorem ipsum...
   - icon: 🎉
     title: Power of Vue meets Markdown
@@ -393,7 +393,7 @@ To add the footer component, go to the `config.js file` and paste the markup ins
 // .vitepress/config.js
  footer: {
    message: "Released under the MIT License.",
-   copyright: "Copyright © 2022-present Adocs",
+   copyright: "Copyright © 2022-present Aquaphoenix",
  },
 ```
 
@@ -425,7 +425,7 @@ docs/
 │       ├── index.js
 │       └── custom.css
 ├── public/
-│   └── logo.svg
+│   └── logo.png
 ├── about.md
 ├── contact.md
 ├── guide.md

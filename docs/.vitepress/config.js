@@ -5,10 +5,12 @@ export default defineConfig({
   title: "Aquaphoenix",
   description: "Aquaphoenix Documentation",
   themeConfig: {
+    logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     // Navbar Link
     nav: [
       { text: "About", link: "/about" },
+      { text: "Documentation", link: "/documentation" },
       { text: "Contact", link: "/contact" },
       { text: "Guide", link: "/guide" },
       { text: "Configs", link: "/configs" },
@@ -62,8 +64,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2022-present Adocs",
+      copyright: "Copyright © 2023-present Aquaphoenix",
     },
     markdown: {
       theme: "material-palenight",
