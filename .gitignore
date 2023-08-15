@@ -7,10 +7,6 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
-# vitepress
-docs/.vitepress/cache/
-docs/.vitepress/dist/
-
 # Firebase cache
 .firebase/
 
