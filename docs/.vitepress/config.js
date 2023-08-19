@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'fr-FR',
   title: "Aquaphoenix",
   description: "Aquaphoenix Documentation",
   themeConfig: {
@@ -12,15 +13,12 @@ export default defineConfig({
       { text: "About", link: "/about" },
       { text: "Documentation", link: "/documentation" },
       { text: "Contact", link: "/contact" },
-      { text: "Guide", link: "/guide" },
-      { text: "Configs", link: "/configs" },
       {
         // Dropdown Menu
         text: "Changelog",
         items: [
-          { text: "v0.0.1", link: "/item-1" },
-          { text: "v0.0.2", link: "/item-2" },
-          { text: "v0.0.3", link: "/item-3" },
+          { text: "info", link: "/changelog/" },
+          { text: "v1", link: "/changelog/v1" },
         ],
       },
     ],
@@ -39,29 +37,31 @@ export default defineConfig({
     // Sidebar
     sidebar: [
       {
-        text: "Section A",
-        collapsible: true,
+        text: 'Pour commencer',
+        collapsed: false,
         items: [
-          { text: "Introduction", link: "/introduction" },
-          { text: "Getting Started", link: "/getting-started" },
-        ],
+          { text: 'Se connecter', link: '/get-started/' },
+          { text: 'Mon profile', link: '/get-started/mon-profile' },
+        ]
       },
       {
-        text: "Section B",
-        collapsible: false,
+        text: 'Tableau de bord',
+        collapsed: false,
         items: [
-          { text: "Introduction", link: "/introduction" },
-          { text: "Getting Started", link: "/getting-started" },
-        ],
+          { text: 'Introduction', link: '/admin/' },
+          { text: 'Client(e)s', link: '/admin/client' },
+          { text: 'Désignation', link: '/admin/designation' },
+          { text: 'Créer une livraison', link: '/admin/livraison' },
+          { text: 'Créer un bon de livraison', link: '/admin/pdf' },
+        ]
       },
       {
-        text: "Section C",
-        collapsible: true,
+        text: 'Tarification',
+        collapsed: false,
         items: [
-          { text: "Introduction", link: "/introduction" },
-          { text: "Getting Started", link: "/getting-started" },
-        ],
-      },
+          { text: 'Introduction', link: '/tarif/' },
+        ]
+      }
     ],
     footer: {
       copyright: "Copyright © 2023-present Aquaphoenix",
@@ -69,6 +69,9 @@ export default defineConfig({
     markdown: {
       theme: "material-palenight",
       lineNumbers: true,
+    },
+    search: {
+      provider: 'local'
     },
   }
 })

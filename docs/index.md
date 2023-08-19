@@ -56,9 +56,9 @@ head:
 ---
 
 <!-- Custom home layout -->
-<!-- <div class="custom-layout">
-  <h1>🏀</h1>
-  <h1>Custom Layout</h1>
-  <p>This section was added using plain HTML and CSS.</p>
-  <a href="https://github.com/Evavic44/adocs/blob/main/docs/index.md#custom-layout" target="_blank" class="btn">Source Code</a>
-</div> -->
+<div class="custom-layout">
+  <h1>🚀</h1>
+  <h1>Vers le site</h1>
+  <p>Bonne journée / soirée 👋</p>
+  <a href="https://aquaphoenix.jsprod.fr/" target="_blank" class="btn">aquaphoenix</a>
+</div>
