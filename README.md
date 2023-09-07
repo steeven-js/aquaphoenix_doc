@@ -1,6 +1,6 @@
 # Documentation Aquaphoenix
 
-![Aquaphoenix Logo](url_de_l'image)
+![Aquaphoenix Logo](https://firebasestorage.googleapis.com/v0/b/aquaphoenix-doc.appspot.com/o/project-3.png?alt=media&token=1db83278-e7d7-496d-8e89-e1b717249275)
 
 ## À Propos d'Aquaphoenix - Conception et Développement
 
