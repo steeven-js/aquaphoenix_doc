@@ -1,13 +1,10 @@
-![get-started-01](./../public/images/get-started/01.png)
+![get-started-01](https://firebasestorage.googleapis.com/v0/b/aquaphoenix-doc.appspot.com/o/FireShot%20Capture%20037%20-%20Aquaphoenix%20-%20Login%20-%20aquaphoenix.jsprod.fr.png?alt=media&token=0061e019-dee2-482a-a396-593b6663f536)
 
 # Guide de Connexion à Votre Compte
 
 Bienvenue dans le guide d'accès à votre compte sur le tableau de bord Aquaphoenix ! Ce guide a été conçu spécialement pour les nouveaux utilisateurs, afin de vous accompagner étape par étape dans le processus de connexion à votre compte au sein de notre plateforme. Suivez attentivement les instructions ci-dessous pour accéder à votre compte de manière simple et efficace.
 
 ## Étapes pour Se Connecter à Votre Compte :
-
-![get-started-02](./../public/images/get-started/02.png)
-![get-started-03](./../public/images/get-started/03.png)
 
 1. **Accédez à la Page de Connexion :**
 Ouvrez votre navigateur web et entrez l'URL de l'application Laravel Breeze dans la barre d'adresse. Habituellement, l'URL ressemblera à quelque chose comme : https://aquaphoenix.jsprod.fr/login. Appuyez sur "Entrée" pour accéder à la page de connexion.
