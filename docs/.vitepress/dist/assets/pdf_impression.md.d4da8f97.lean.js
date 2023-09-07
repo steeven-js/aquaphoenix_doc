@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./chunks/framework.b8f8f898.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"pdf/impression.md","filePath":"pdf/impression.md"}'),r={name:"pdf/impression.md"};function o(a,n,i,p,c,d){return t(),s("div")}const _=e(r,[["render",o]]);export{f as __pageData,_ as default};

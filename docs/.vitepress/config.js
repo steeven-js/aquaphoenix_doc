@@ -56,9 +56,11 @@ export default defineConfig({
         ]
       },
     ],
+    // Footer
     footer: {
       copyright: "Copyright © 2023-present Aquaphoenix",
     },
+    // VitePress default theme options
     markdown: {
       theme: "material-palenight",
       lineNumbers: true,
