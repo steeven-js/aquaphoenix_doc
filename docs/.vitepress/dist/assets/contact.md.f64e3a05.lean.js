@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as o,X as t}from"./chunks/framework.b8f8f898.js";const q=JSON.parse('{"title":"Contact - Aquaphoenix","description":"","frontmatter":{},"headers":[],"relativePath":"contact.md","filePath":"contact.md"}'),s={name:"contact.md"},r=t("",16),i=[r];function n(u,c,l,p,h,d){return a(),o("div",null,i)}const x=e(s,[["render",n]]);export{q as __pageData,x as default};
