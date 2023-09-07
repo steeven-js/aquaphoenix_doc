@@ -23,10 +23,10 @@ Restez connecté avec nous sur les réseaux sociaux :
 
 Envoyez-nous un courrier à notre adresse principale :
 
-Aquaphoenix
-35 rue Joseph Lagrosilliére
-97220, Trinité, Martinique
-+596 696 34 81 12
+Aquaphoenix  
+35 rue Joseph Lagrosilliére  
+97220, Trinité, Martinique  
++596 696 34 81 12  
 **[contact@aquaphoenix.fr](mailto:contact@aquaphoenix.fr)**
 
 L'équipe Aquaphoenix a hâte de vous aider !
